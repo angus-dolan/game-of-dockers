@@ -1,10 +1,6 @@
 # Game of Dockers
  Bash program used to learn Docker basics and scheduling algorithms such as Round Robin, Shortest Job Next and First Come First Served in bash scripting within a UNIX environment.
 
-## Requirements
-- The scripts are designed to be used in a UNIX environment only
-- Docker must be installed on system
-
 Contents
 - [Game of Dockers](#game-of-dockers)
   - [Requirements](#requirements)
@@ -12,6 +8,10 @@ Contents
   - [Directories](#directories)
   - [Sorting Scripts](#sorting-scripts)
   - [Screenshots](#screenshots)
+
+## Requirements
+- The scripts are designed to be used in a UNIX environment only
+- Docker must be installed on system
   
 ## Running the script
 The main entry point of the program is main.sh located in the project root directory. While in the root directory, the program can be started using ``./main.sh`` in terminal. After unzipping the program and opening a terminal window in the root directory, it is recommended to first run ``chmod +x main.sh`` to give the main script the correct permissions it needs to execute.
@@ -42,8 +42,16 @@ The main entry point of the program is main.sh located in the project root direc
 In the scripts directory you will find ``sort_files_FCFS.sh`` and ``sort_files_SJN.sh``. These scripts are sent to the Docker container to sort the files. FCFS is for Docker 1 to sort using First Come First Serve. SJN is used in Dockers 2 and 3 to use Shortest Job Next.
 
 ## Screenshots
-![screenshot-1](screenshot-1.png)
-![screenshot-2](screenshot-2.png)
-![screenshot-3](screenshot-3.png)
-![screenshot-4](screenshot-4.png)
-![screenshot-5](screenshot-5.png)
+
+Running `./main.sh` creates the docker containers, loads the text into the containers then begins sorting them using scheduling algorithms.
+![screenshot-1](screenshot-1.PNG)
+![screenshot-2](screenshot-2.PNG)
+
+Here you can remove text and add new text to the end of the chapter.
+![screenshot-3](screenshot-3.PNG)
+
+"to kill a mockingbird" has been removed and "New text here." added to the end of the file.
+![screenshot-4](screenshot-4.PNG)
+
+To terminate the program enter "Y" when prompted.
+![screenshot-5](screenshot-5.PNG)
