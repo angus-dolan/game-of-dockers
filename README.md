@@ -25,7 +25,7 @@ The main entry point of the program is main.sh located in the project root direc
 **/src**
 - The Docker source text files must be placed in this directory. 
 - The program also assumes they will be categorised in further sub directories as Docker1, Docker2 or Docker3
-- 
+  
 **/output**
 - Where the final GAME_OF_DOCKERS.txt file will be sent to. 
 - Please note on every new execution of the program, the old file will be removed to make room for the new one.
